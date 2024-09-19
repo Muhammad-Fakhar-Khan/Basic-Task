@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h2 style="color: #ffdd00;">The Shopkeeper</h2>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="slider" id="home">
+        <div class="slides" id="slides">
+            <img src="Assests/setup1.jpg" alt="Slide 1">
+            <img src="Assests/setup2.jpg" alt="Slide 2">
+            <img src="Assests/setup3.jpg" alt="Slide 3">
+        </div>
+        <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+
+    <section class="about-grid" id="about">
+        <div class="about-item">
+            <img src="Assests/keyboard2.jpg" alt="about 1">
+            <h3>Gaming Keyboard</h3>
+            <p> A gaming keyboard features mechanical switches for fast response, RGB lighting for customization,
+                and programmable keys, offering precise control and anti-ghosting for seamless multi-key inputs during gameplay.</p>
+        </div>
+        <div class="about-item">
+            <img src="Assests/monitor2.jpg" alt="about 2">
+            <h3>Gaming Monitor</h3>
+            <p> A gaming monitor provides smooth visuals with high refresh rates (144Hz+), low response times, and adaptive sync technology, 
+                delivering fluid, immersive gameplay while reducing screen tearing and input lag.</p>
+        </div>
+        <div class="about-item">
+            <img src="Assests/mouse2.jpg" alt="about 3">
+            <h3>Gaming Mouse</h3>
+            <p> A gaming mouse offers high DPI settings, customizable buttons, ergonomic design, and fast response,
+                providing precision and comfort for competitive gaming with options for adjustable weights and sensitivity.</p>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-details">
+            <div class="contact-item">
+                <h4>Location</h4>
+                <p>123 Your Street, Our city</p>
+            </div>
+            <div class="contact-item">
+                <h4>Email</h4>
+                <p>info@theshopkeeper.com</p>
+            </div>
+            <div class="contact-item">
+                <h4>Phone</h4>
+                <p>+123 456 789</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Powered by Fakhar Khan.</p>
+    </footer>
+
+    <script src="Task.js"></script>
+
+</body>
+</html>
